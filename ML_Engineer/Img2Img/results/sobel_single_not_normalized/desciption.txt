@@ -1,0 +1,13 @@
+Network Architecture SingleFilterNoNorm(
+  (conv_layer): Conv2d(1, 1, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+)
+Learned filter:
+Parameter containing:
+tensor([[[[ 0.9977, -0.0023, -1.0023],
+          [ 1.9978, -0.0022, -2.0022],
+          [ 0.9977, -0.0022, -1.0023]]]], device='mps:0', requires_grad=True)
+
+ Applied Filter
+tensor([[ 1,  0, -1],
+        [ 2,  0, -2],
+        [ 1,  0, -1]])

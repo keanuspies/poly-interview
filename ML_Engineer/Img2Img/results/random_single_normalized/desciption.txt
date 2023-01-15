@@ -1,0 +1,13 @@
+Network Architecture SingleFilter(
+  (conv_layer): Conv2d(1, 1, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+)
+Learned filter:
+Parameter containing:
+tensor([[[[ 0.4957, -0.0650,  0.9851],
+          [ 1.9824,  0.8931, -1.4465],
+          [ 1.6207,  0.4835, -1.4735]]]], device='mps:0', requires_grad=True)
+
+ Applied Filter
+tensor([[ 0.4958, -0.0648,  0.9853],
+        [ 1.9826,  0.8934, -1.4463],
+        [ 1.6209,  0.4837, -1.4733]], dtype=torch.float64)

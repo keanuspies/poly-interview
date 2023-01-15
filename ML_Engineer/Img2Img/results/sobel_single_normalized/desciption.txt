@@ -1,0 +1,25 @@
+Network Architecture SingleFilter(
+  (conv_layer): Conv2d(1, 1, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+)
+Learned filter:
+Parameter containing:
+tensor([[[[-1.0003e+00, -3.3697e-04,  9.9967e-01],
+          [-2.0004e+00, -3.9937e-04,  1.9996e+00],
+          [-1.0003e+00, -3.4882e-04,  9.9965e-01]]]], device='mps:0',
+       requires_grad=True)
+
+ Applied Filter
+tensor([[ 1,  0, -1],
+        [ 2,  0, -2],
+        [ 1,  0, -1]])
+Learned filter:
+Parameter containing:
+tensor([[[[-1.0003e+00, -3.3697e-04,  9.9967e-01],
+          [-2.0004e+00, -3.9937e-04,  1.9996e+00],
+          [-1.0003e+00, -3.4882e-04,  9.9965e-01]]]], device='mps:0',
+       requires_grad=True)
+
+ Applied Filter
+tensor([[ 1,  0, -1],
+        [ 2,  0, -2],
+        [ 1,  0, -1]])
