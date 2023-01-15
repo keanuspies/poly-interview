@@ -25,7 +25,7 @@ I also allowed for a random filter to be applied in both the single and double f
 ## Question answers
 
 1. What if the image is really large or not of a standard size?
-    <b> Since my model is a single conv layer that outputs the same size as the input this should not be a problem for training. The sobel filter generally stays the same size and has the same values for images of all shapes and sizes so the learned filter should still work. <b>
+    <b> Since my model is a single conv layer that outputs the same size as the input this should not be a problem for training. The sobel filter generally stays the same size and has the same values for images of all shapes and sizes so the learned filter should still work. </b>
 
 
 2. What should occur at the edges of the image?
